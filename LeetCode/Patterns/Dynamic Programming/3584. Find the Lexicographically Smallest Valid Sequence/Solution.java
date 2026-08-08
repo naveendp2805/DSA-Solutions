@@ -26,7 +26,7 @@ class Solution {
             if(word1.charAt(i) == word2.charAt(j)) {
                 res[size++] = i;
                 j++;
-            } else if(canSkip && i < last[j+1]) {
+            } else if(canSkip && (j == m-1 || i < last[j+1])) {
                 canSkip = false;
                 res[size++] = i;
                 j++;
