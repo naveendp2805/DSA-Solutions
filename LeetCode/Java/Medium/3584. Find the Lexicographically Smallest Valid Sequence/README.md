@@ -8,8 +8,8 @@
 Two Pointers, String, Dynamic Programming, Greedy
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 32 ms
+- **Memory:** 137.8 MB
 
 ---
 
